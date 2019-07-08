@@ -9,17 +9,42 @@
 }
 /* HEADER */
 
+header {
+    height: 125px;
+    width: 100%;
+    min-width: 1000px;
+    border: 1px solid #dddddd;
+    border: 1px solid red; to see header container
+
+}
+
+header .topNav {
+    display: block;
+    height: 64px;
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid green; to see search container
+}
+
+header form {
+    display: inline;
+    margin-left: 20px;
+}
+
+header .header-right {
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
 ul {
     list-style-type: none;
   }
 
-.topNav {
-    position: fixed;
-    top: 0;
-    display: inline-block;
-}
+
 
 .searchBar {
+    border: 1px solid lightgray;
     border-radius: 1.5rem;
     width: 600px;
     height: 40px;
@@ -27,14 +52,28 @@ ul {
 
 /* ICONS */
 
+.logo {
+    width: auto;
+    vertical-align: middle;
+    margin-left: 30px; 
+}
+
 .google-mic {
     width: 15px;
+    margin-right: 20px;
 }
 
 .google-magnify {
     width: 17px;
 }
 
+.google-mic, .google-magnify {
+    position: relative;
+    right: 80px;
+    vertical-align: middle;
+}
+
 .google-apps {
-    width: 15px;
+    width: 25px;
+    vertical-align: middle;
 }
