@@ -1,23 +1,40 @@
 /* GLOBAL */
 
-body {
-    font-family: Arial, sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-
 /* HEADER */
 
 ul {
     list-style-type: none;
   }
 
-#topNav {
+.topNav {
     position: fixed;
     top: 0;
     display: inline-block;
 }
 
-#searchBar {
+.searchBar {
     border-radius: 1.5rem;
     width: 600px;
     height: 40px;
+}
+
+/* ICONS */
+
+.google-mic {
+    width: 15px;
+}
+
+.google-magnify {
+    width: 17px;
+}
+
+.google-apps {
+    width: 15px;
 }
