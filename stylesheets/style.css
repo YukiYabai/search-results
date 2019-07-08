@@ -1,9 +1,19 @@
+/* GLOBAL */
+
 body {
     font-family: Arial, sans-serif;
 }
 
+/* HEADER */
+
+ul {
+    list-style-type: none;
+  }
+
 #topNav {
-    display: flex;
+    position: fixed;
+    top: 0;
+    display: inline-block;
 }
 
 #searchBar {
@@ -11,7 +21,3 @@ body {
     width: 600px;
     height: 40px;
 }
-
-ul {
-    list-style-type: none;
-  }
