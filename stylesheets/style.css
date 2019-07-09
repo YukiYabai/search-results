@@ -7,6 +7,11 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+
+ul {
+    list-style-type: none;
+}
+
 /* HEADER */
 
 header {
@@ -14,16 +19,20 @@ header {
     width: 100%;
     min-width: 1000px;
     border: 1px solid #dddddd;
-    border: 1px solid red; to see header container
+    /* border: 1px solid red; to see header container */
 
 }
 
-header .topNav {
+.topNav {
     display: block;
     height: 64px;
     width: 100%;
-    margin-top: 25px;
-    border: 1px solid green; to see search container
+    margin-top: 20px;
+    /* border: 1px solid green; to see search container */
+}
+
+.topNav a {
+    color: white;
 }
 
 header form {
@@ -37,17 +46,37 @@ header .header-right {
     margin-right: 25px;
 }
 
-ul {
-    list-style-type: none;
-  }
-
-
-
 .searchBar {
     border: 1px solid lightgray;
-    border-radius: 1.5rem;
-    width: 600px;
-    height: 40px;
+    border-radius: 1.7rem;
+    width: 630px;
+    height: 45px;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul {
+    margin-left: 150px;
+    height: 30px;
+    width: 625px;
+    margin-top: 10px;
+    /* border: 1px solid purple; to see nav container */
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.navigation-left {
+    display: inline;
+}
+
+.navigation-right {
+    float: right;
 }
 
 /* ICONS */
