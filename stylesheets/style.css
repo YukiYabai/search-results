@@ -53,6 +53,18 @@ header .header-right {
     height: 45px;
 }
 
+.sign-in {
+    color: white;
+    background-color: #4583ee;
+    border: 1px solid #4583ee;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.2rem;
+    font-weight: bold;
+}
+
 nav {
     position: relative;
 }
