@@ -140,6 +140,48 @@ nav a {
     margin: 2px;
 }
 
+.alsoTable ul {
+    padding: 0px 0px 18px 0px;
+}
+
+.alsoTable li {
+    border: 1px solid #e0e1e6;
+    border-top: none;
+    padding-left: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 16px;
+}
+
+.alsoTable li:nth-of-type(1) {
+    border: 1px solid #e0e1e6;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    font-size: 18px;
+    color: #e2e3e8;
+}
+
+.alsoTable li:nth-last-of-type(1) {
+    border: 1px solid #e0e1e6;
+    border-top: none;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.alsoTable i {
+    float: right;
+    padding-right: 15px;
+    color: #70747a;
+}
+
+.alsoTable a {
+    color: #222322;
+}
+
+.alsoTable a:visited {
+    color: #222322;
+}
+
 /* ICONS */
 
 .logo {
