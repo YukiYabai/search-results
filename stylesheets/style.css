@@ -228,7 +228,11 @@ nav a {
 
 .relatedSearch2 li {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
+}
+
+.resultPage {
+    padding: 0 0 15px 160px;
 }
 
 /* FOOTER */
