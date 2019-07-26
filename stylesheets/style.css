@@ -202,7 +202,33 @@ nav a {
 
 .relatedSearch li {
     display: inline;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.imgLinks {
+    margin-bottom: 0;
+}
+
+.textLinks {
+    margin-top: 0;
+}
+
+.relatedSearch .textLinks li {
+    padding: 0 38px 0 10px;
+}
+
+.relatedSearch2 {
+    padding: 15px;
+}
+.relatedSearch2 h1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.relatedSearch2 li {
+    font-weight: 700;
+    font-size: 16px;
 }
 
 /* FOOTER */
